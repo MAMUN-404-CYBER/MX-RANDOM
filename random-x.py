@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup as sop
+Kifrom bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
 import marshal
@@ -144,8 +144,8 @@ def xyz():
     os.system("clear");print(logo)
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f"")
-    print(f"[01] {GREEN}START RANDOM CLONING")
-    print(f"[00] {GREEN}EXIT PROGRAM ")
+    print(f"[01] {WHITE}START RANDOM CLONING")
+    print(f"[00] {WHITE}EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
     MAMUN = input("[√] CHOOSE : ")
@@ -190,12 +190,12 @@ def Random():
     with ThreadPool(max_workers=30) as yaari:    
         clear()
         tl = str(len(user))
-        print(f" {GREEN}TOTAL IDZ             : {RED}"+tl)
-        print(f" {GREEN}COUNTRY YOU CHOOSE    : BANGLADESH ")
-        print(f" {GREEN}NUMBER YOU PUT        : {RED}"+code)
-        print(f" {GREEN}PROCESS HAS BEEN STARTED")
-        print(f" {GREEN}BE PATIENT.......")
-        print(f" {GREEN}TO STOP PROCESS Ctrl + Z ")
+        print(f" {WHITE}TOTAL IDZ             : {RED}"+tl)
+        print(f" {WHITE}COUNTRY YOU CHOOSE    : BANGLADESH ")
+        print(f" {WHITE}NUMBER YOU PUT        : {RED}"+code)
+        print(f" {WHITE}PROCESS HAS BEEN STARTED")
+        print(f" {WHITE}BE PATIENT.......")
+        print(f" {WHITE}TO STOP PROCESS Ctrl + Z ")
         print(f'===========================================================')
         for love in user:
             uid = code+love
