@@ -73,8 +73,8 @@ def clear():
 
 
 AUTHOR     : M A M U N
-FACEBOOK :  ﾞMood　一　Offﾞ　Stay ﾞxﾞ Alert
-VERSION     : 1.1
+WHATSAPP   : 01304906886 
+VERSION    : 1.1
                                    [LOVE YOU HATERS]
 ____________________
 
