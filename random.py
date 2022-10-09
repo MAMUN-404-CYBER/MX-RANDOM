@@ -9,7 +9,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python random.py')
+    os.system()
 from bs4 import BeautifulSoup
 ugen = []
 A = '\x1b[1;97m' 
