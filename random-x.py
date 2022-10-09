@@ -1,4 +1,4 @@
-Kifrom bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
 import marshal
