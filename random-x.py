@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup as sop
+Kifrom bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
 import marshal
@@ -70,7 +70,15 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
-logo =f"""____________________
+
+
+   __  ______   __  _____  ___  __    _  __
+  /  |/  / _ | /  |/  / / / / |/ /___| |/_/
+ / /|_/ / __ |/ /|_/ / /_/ /    /___/>  <  
+/_/  /_/_/ |_/_/  /_/\____/_/|_/   /_/|_|  
+                                           
+
+
 AUTHOR     : M A M U N
 FACEBOOK :  ﾞMood　一　Offﾞ　Stay ﾞxﾞ Alert十
 VERSION     : 1.1
@@ -261,4 +269,4 @@ def free(uid,pwx,tl):
         
  
 if __name__ == '__main__':
-    xyz()
+    menu()
