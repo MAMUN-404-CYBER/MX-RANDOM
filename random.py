@@ -94,7 +94,7 @@ def checks(oks,cps,twf):
               (H, P, str(len(cps))))
         print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mKB-2F.txt' %
               (H, P, str(len(twf))))
-        input("\x1b[1;97mPRESE ENTER TO BACK xyz  ")
+        input("\x1b[1;97mPRESE ENTER TO BACK  ")
         xyz()
 loop = 0
 cps = []
