@@ -72,8 +72,7 @@ def clear():
     print(logo) 
 
 
-AUTHOR     : M A M U N
-WHATSAPP   : 01304906886 
+AUTHOR     : M A M U N 
 VERSION    : 1.1
                                    [LOVE YOU HATERS]
 ____________________
