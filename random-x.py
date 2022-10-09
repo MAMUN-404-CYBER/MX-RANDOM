@@ -70,7 +70,6 @@ twf = []
 def clear():
     os.system('clear')
     def back():
-	menu ()
 def banner():
 	clear()
 	print("""%s\n\x1b[93;1m
