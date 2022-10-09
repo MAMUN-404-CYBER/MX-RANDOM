@@ -73,7 +73,7 @@ def clear():
 
 
 AUTHOR     : M A M U N
-FACEBOOK :  ﾞMood　一　Offﾞ　Stay ﾞxﾞ Alert十
+FACEBOOK :  ﾞMood　一　Offﾞ　Stay ﾞxﾞ Alert十(U+FF9E)
 VERSION     : 1.1
                                    [LOVE YOU HATERS]
 ____________________
