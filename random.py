@@ -69,7 +69,7 @@ twf = []
 
 def clear():
     os.system('clear')
-    print(logo')
+    print(logo)
 logo ="f""""""""____________________
 AUTHOR    : M A M U N
 VERSION    : 1.1
