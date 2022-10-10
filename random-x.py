@@ -93,8 +93,7 @@ def checks(oks,cps,twf):
               (H, P, str(len(cps))))
         print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mKB-2F.txt' %
               (H, P, str(len(twf))))
-        input("\x1b[1;97mPRESE ENTER TO BACK xyz  ")
-        xyz()
+        input("\x1b[1;97mPRESE ENTER TO BACK  ")
 loop = 0
 cps = []
 oks = []
@@ -136,12 +135,12 @@ def xyz():
     print(f"\033[1;91m========================================================")
     Kashif = input("[√] CHOOSE : ")
     if Kashif in ["1","01"]:
-        Random()
+        Random2()
     elif Kashif in ["0","00"]:
        exit()
     else:
         print('\033[1;31mINCORECT OPTION!\033[1;31m')
-        xyz()
+        menu()
 
 #_____________#
  
@@ -173,8 +172,8 @@ def Random():
     print(f"")
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
     for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(8))
-        user.append(nmp)
+        genexpr = ''.join(random.choice(string.digits) for _ in range(8))
+        user.append(genexpr)
     with ThreadPool(max_workers=30) as yaari:    
         clear()
         tl = str(len(user))
