@@ -172,8 +172,8 @@ def Random():
     print(f"")
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
     for nmbr in range(limit):
-        genexpr = ''.join(random.choice(string.digits) for _ in range(8))
-        user.append(genexpr)
+        nmbr = ''.join(random.choice(string.digits) for _ in range(8))
+        user.append(nmbr)
     with ThreadPool(max_workers=30) as yaari:    
         clear()
         tl = str(len(user))
