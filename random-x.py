@@ -173,7 +173,6 @@ def Random():
     print(f"")
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
         
-        clear()
         tl = str(len(user))
         print(f" {WHITE}TOTAL IDZ             : {RED}"+tl)
         print(f" {WHITE}COUNTRY YOU CHOOSE    : BD ")
