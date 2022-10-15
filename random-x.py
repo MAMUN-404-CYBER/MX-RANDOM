@@ -172,10 +172,7 @@ def Random():
     print(f"          \x1b[97m[\033[37;41m  L I M I T   M E N U   \033[0;m]")
     print(f"")
     limit = int(input(' EXAMPLE: 1000, 2000, 5000, 10000\n\n PUT CLONING LIMIT: '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice print(my_string[15]digits') for in_range(7))
-        user.append(nmp)
-    with ThreadPool(max_workers=30) as yaari:    
+        
         clear()
         tl = str(len(user))
         print(f" {WHITE}TOTAL IDZ             : {RED}"+tl)
