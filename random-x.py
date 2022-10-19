@@ -136,7 +136,7 @@ def xyz():
     print(f"\033[1;91m========================================================")
     Kashif = input("[√] CHOOSE : ")
     if Kashif in ["1","01"]:
-        RANDOM()
+        Random()
     elif Kashif in ["0","00"]:
        exit()
     else:
