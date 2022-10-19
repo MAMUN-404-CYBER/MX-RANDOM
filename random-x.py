@@ -266,5 +266,5 @@ if __name__=='__main__':
 	try:os.mkdir('OK')
 	except:pass
 	os.system("xdg-open https://www.facebook.com/profile.php?id=100078539316286")
-	menu()
+	xyz()
 	
