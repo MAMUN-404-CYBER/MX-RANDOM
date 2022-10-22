@@ -70,10 +70,17 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
+    __  ______    __  _____  ___   __     _  __
+   /  |/  /   |  /  |/  / / / / | / /    | |/ /
+  / /|_/ / /| | / /|_/ / / / /  |/ /_____|   / 
+ / /  / / ___ |/ /  / / /_/ / /|  /_____/   |  
+/_/  /_/_/  |_/_/  /_/\____/_/ |_/     /_/|_|                                               
 logo =f"""____________________
 AUTHOR    : M A M U N
-FACEBOOK : Not Found 
-VERSION    : 1.1
+Whatsapp  : 01304906886
+Status    : Random Cloning
+FACEBOOK  : Not Found 
+VERSION   : 1.1
                                    [Fuck Off]
 ____________________"""
 
@@ -160,7 +167,7 @@ def Random():
     print(f"          \x1b[97m[\033[37;41m  C O D E    M E N U   \033[0;m]")
     print(f"")
     linex()
-    print(f"        \x1b[97m[\033[95;42mEXAMPLE :👇\033[0;m]")
+    print(f"        \x1b[97m[\033[95;42mEXAMPLE :\033[0;m]")
     print(f"")
     print(' 0306 ,0300 ,0315 ,0333')
     print(f" 0341 ,0342 ,0345 ,0349")
