@@ -97,11 +97,11 @@ def checks(oks,cps,twf):
     if not len(oks) != 0:
         pass
     if len(cps) != 0:
-        print('\n\n\x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mKB-OK.txt' % (
+        print('\n\n\x1b[1;97m TOTAL OK : \x1b[1;97m %s  \x1b[1;97mMX-OK.txt' % (
             H, P, str(len(oks))))
-        print('\x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mKB-CP.txt' %
+        print('\x1b[1;97m TOTAL CP :\x1b[1;97m   %s \x1b[1;97mMX-CP.txt' %
               (H, P, str(len(cps))))
-        print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mKB-2F.txt' %
+        print('\x1b[1;97m TOTAL 2F :\x1b[1;97m   %s \x1b[1;97mMX-2F.txt' %
               (H, P, str(len(twf))))
         input("\x1b[1;97mPRESE ENTER TO BACK xyz  ")
         xyz()
